@@ -1,0 +1,111 @@
+.App {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.Home {
+  background-size: contain;
+  background-repeat: no-repeat;
+   max-width:100%;
+   height:auto;
+   max-height:100%;
+   display: block;
+   margin: 0 auto;
+   padding: 0;
+}
+
+.Title {
+	color: #EBEBEB;
+	text-align: center;
+	transform: translate(0%, -1390%);
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  margin-top: -84px;
+
+    &.insetshadow 
+    color: #A8B2B4;
+    letter-spacing: .1em;
+    text-shadow: 
+      -1px -1px 1px #EBEBEB, 
+      2px 2px 1px #4A626C;
+
+
+
+}
+
+.Navbar {
+
+	background-color: #E5E5E5;
+	transform: translate(0%, 113%);	
+	border-color: #DADEDF;
+	border-style: solid;
+	width: 1345px;
+	height: 75px;
+}
+
+.Header {
+	display: inline-block;
+}
+
+.OurStory {
+	display: inline-block;
+	float: left;
+	font-size: 20px;
+	color: black;
+	margin-left: 105px;
+	margin-top: -70px;
+
+}
+
+.Products {
+	display: inline-block;
+	float: left;
+	font-size: 20px;
+	margin-left: 230px;
+	margin-top: -70px;
+
+}
+
+.SignUp {
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+	margin-right: 135px;
+	margin-top: -70px;
+}
+
+.LogIn {
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+	margin-right: 35px;
+	margin-top: -70px;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+
+	
+}
+
+.Brain {
+	display: inline-block;
+	height: 75px;
+	width: 105px;
+}
+
+.Tagline {
+	color: black;
+	
+}
+

@@ -58,7 +58,7 @@ class App extends Component {
         	</div>
 
         	<div className="Tagline">
-        	<p>Peace, Unplugged</p>
+        	<p>Your Mind, Unplugged</p>
         	</div>
    
   				

@@ -1,111 +1,115 @@
 .App {
-  background-color: white;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: contain;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  position: relative;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #A8B2B4;
 }
 
 .Home {
-  background-size: contain;
   background-repeat: no-repeat;
-   max-width:100%;
-   height:auto;
-   max-height:100%;
-   display: block;
-   margin: 0 auto;
-   padding: 0;
-}
+  background-size: 100% 100%;
+  background-image: url("./home.jpg");
+  width: auto;
+  height: 100%;
+  padding-top: 17%;
+  }
 
 .Title {
 	color: #EBEBEB;
 	text-align: center;
-	transform: translate(0%, -1390%);
+	font-size:40px;
+	/*transform: translate(0%, -1390%);*/
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  margin-top: -84px;
 
     &.insetshadow 
     color: #A8B2B4;
     letter-spacing: .1em;
     text-shadow: 
-      -1px -1px 1px #EBEBEB, 
+      -1px -1px 1px #4A626C, 
       2px 2px 1px #4A626C;
-
-
-
 }
 
-.Navbar {
+.Nav {
 
-	background-color: #E5E5E5;
-	transform: translate(0%, 113%);	
-	border-color: #DADEDF;
-	border-style: solid;
-	width: 1345px;
-	height: 75px;
+	border-style: #f3f3f3;
+	width: 100%;
+	list-style-type: none;
+    background-color: #4A4A4A;
 }
 
-.Header {
+ul {
 	display: inline-block;
+	list-style-type: none;
+    overflow: hidden;
+    background-color: #4A4A4A;
+    margin-bottom: 20px;
+   }
+
+ul.Right {
+	margin-left: 780px;
+	
 }
+
+
+ul.Left {
+}
+
+
+li {
+	
+}
+
 
 .OurStory {
 	display: inline-block;
-	float: left;
 	font-size: 20px;
-	color: black;
-	margin-left: 105px;
-	margin-top: -70px;
-
+	margin-right: 20px;
+	
 }
 
 .Products {
 	display: inline-block;
-	float: left;
 	font-size: 20px;
-	margin-left: 230px;
-	margin-top: -70px;
-
+	margin-right: 20px;
 }
 
 .SignUp {
 	display: inline-block;
-	float: right;
 	font-size: 20px;
-	margin-right: 135px;
-	margin-top: -70px;
+	margin-right: 20px;
 }
 
 .LogIn {
 	display: inline-block;
-	float: right;
 	font-size: 20px;
-	margin-right: 35px;
-	margin-top: -70px;
-
+	margin-right: 20px;
 }
 
 a {
 	text-decoration: none;
-	color: black;
-	display: inline-block;
-
-	
+	color: white;
 }
 
 .Brain {
 	display: inline-block;
 	height: 75px;
 	width: 105px;
+
 }
 
 .Tagline {
-	color: black;
-	
+	color: #7C7B7D;	
+	margin-left: 30em;
+	font-style: italic;
+	font-size: 20px;
+
+
 }
 
+p {
+	margin-top: -26px;
+}

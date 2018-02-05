@@ -1,11 +1,44 @@
 import React from 'react';
 import './OurStory.css';
+import OurStoryVR from './OurStoryVR.jpg';
+import './App.css';
+import {Link} from "react-router-dom";
+import brain from './brain.png';
 
 class OurStory extends React.Component {
 	render() {
 		return(
+
 			<div className="OurStory">
-			<p>Awesome sauce</p>
+			<div className="Nav">
+		      	<Link to="/App"><img className="Brain" src={brain} alt="" /></Link>
+
+
+					<ul className="Left">
+						<li className="OurStoryLi">
+							<Link to="/OurStory">Our Story</Link>
+						</li>
+
+						<li className="Products">
+							<Link to="/Products">Products</Link>
+						</li>
+					</ul>
+				
+					<ul className="Right">
+						<li className="LogIn">
+							<Link to="/LogIn">Log In</Link>
+						</li>
+
+						<li className="SignUp">
+							<Link to="/SignUp">Sign Up</Link>
+						</li>
+					</ul>
+
+				</div>
+
+
+			<img className="OurStoryVR" src={OurStoryVR} alt=" " />
+
 			</div>
 		)
 	}

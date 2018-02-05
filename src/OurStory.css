@@ -1,8 +1,14 @@
 .OurStory {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	
+	background-color: #EBEBEB;
+	background-position: cover;
 }
 
+.OurStoryVR {
+
+	position: relative;
+	height: 665px;
+	width: 570px;
+	
+	
+}

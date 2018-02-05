@@ -1,0 +1,46 @@
+.LogIn2{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #EBEBEB;
+}
+
+.Username{
+	height: 40px;
+	width: 305px;
+	display: block;
+	background-color: #EBEBEB;
+	border-width: 1px;
+	border-top: 1px;
+
+}
+
+.Password {
+height: 40px;
+width: 305px;
+display: block;
+background-color: #EBEBEB;
+border-width: 0px;
+border-top: 5px;
+}
+
+.Submit {
+	height: 40px;
+	width: 305px;
+	display: block;
+	
+}
+
+.Facebook {
+	background-image: url("./FacebookLogin.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40px;
+	width: 250px;
+	display: block;
+
+
+}

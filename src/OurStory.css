@@ -12,3 +12,71 @@
 	
 	
 }
+
+.Nav2 {
+
+	border-style: #f3f3f3;
+	width: 100%;
+	list-style-type: none;
+    background-color: #4A4A4A;
+}
+
+ul {
+	display: inline-block;
+	list-style-type: none;
+    overflow: hidden;
+    background-color: #4A4A4A;
+    margin-bottom: 20px;
+   }
+
+ul.Right {
+	margin-left: 780px;
+	
+}
+
+
+ul.Left {
+}
+
+
+li {
+	
+}
+
+
+.OurStoryLi {
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 20px;
+	
+}
+
+.Products {
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+.SignUp {
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+.LogIn {
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.Brain {
+	display: inline-block;
+	height: 75px;
+	width: 105px;
+
+}

@@ -1,7 +1,6 @@
 import React from 'react';
 import './OurStory.css';
 import OurStoryVR from './OurStoryVR.jpg';
-import './App.css';
 import {Link} from "react-router-dom";
 import brain from './brain.png';
 
@@ -10,8 +9,8 @@ class OurStory extends React.Component {
 		return(
 
 			<div className="OurStory">
-			<div className="Nav">
-		      	<Link to="/App"><img className="Brain" src={brain} alt="" /></Link>
+			<div className="Nav2">
+		      	<Link to="/"><img className="Brain" src={brain} alt="" /></Link>
 
 
 					<ul className="Left">

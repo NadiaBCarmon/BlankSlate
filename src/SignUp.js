@@ -1,16 +1,17 @@
 import React from 'react';
 import './SignUp.css';
-import './App.css';
 import {Link} from "react-router-dom";
 import brain from './brain.png';
 
 class SignUp extends React.Component {
 	render() {
 		return (
-			<div className="SignUp">
+			<div className="SignUp2">
+
+			<div className="VRSignUp">
 			
-			<div className="Nav">
-		      	<Link to="/App"><img className="Brain" src={brain} alt="" /></Link>
+			<div className="Nav5">
+		      	<Link to="/"><img className="Brain" src={brain} alt="" /></Link>
 
 
 					<ul className="Left">
@@ -33,6 +34,7 @@ class SignUp extends React.Component {
 						</li>
 					</ul>
 
+				</div>
 				</div>
 			
 

@@ -4,6 +4,8 @@ import {Link} from "react-router-dom";
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 //import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import brain from './brain.png';
+import BackgroundVideo from './BackgroundVideo.js';
+import MainVid from './MainVid.mp4';
 
 
 
@@ -13,8 +15,11 @@ class App extends Component {
 
     		<div className="App">
 
+
+
+
 		      	<div className="Nav">
-		      	<Link to="/App"><img className="Brain" src={brain} alt="" /></Link>
+		      	<Link to="/"><img className="Brain" src={brain} alt="" /></Link>
 
 
 					<ul className="Left">
@@ -41,6 +46,7 @@ class App extends Component {
 
 
 		      	<ReactCSSTransitionGroup transitionName="fade" transitionEnterTimeout={500} transitionLeaveTimeout={300}>
+		        
 		        </ReactCSSTransitionGroup>
 
 		        	<div className="Home">	

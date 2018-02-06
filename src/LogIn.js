@@ -1,7 +1,6 @@
 import React from 'react';
 import './LogIn.css';
 import { FacebookLogin } from './FacebookLogin.png';
-import './App.css';
 import {Link} from "react-router-dom";
 import brain from './brain.png';
 
@@ -9,9 +8,10 @@ class LogIn extends React.Component {
 	render() {
 		return (
 			<div className="LogIn2">
+			<div className="VRLogIn">
 
-			<div className="Nav">
-		      	<Link to="/App"><img className="Brain" src={brain} alt="" /></Link>
+			<div className="Nav4">
+		      	<Link to="/"><img className="Brain" src={brain} alt="" /></Link>
 
 
 					<ul className="Left">
@@ -38,15 +38,19 @@ class LogIn extends React.Component {
 			
 			<center>
 			<div className="LogInUser">
-			<input type="text" className="Username" placeholder="Username"></input>
-			<input type="text" className="Password" placeholder="Password"></input>
-			<input type="button" className="Submit" placeholder="Submit"></input>
+			<h2 className="LogInText">Sign In</h2>
+			<div className="LogInUser2">
+			<input type="text" className="Username" value="euphoria@blankslate.com"></input>
+			<input type="text" className="Password" value="*******"></input>
+			<input type="button" className="Submit" value="Login"></input>
 			
 			<input type="button" className="Facebook"></input>
 
 			</div>
+			</div>
 			</center>
 
+			</div>
 			</div>
 			)
 	}

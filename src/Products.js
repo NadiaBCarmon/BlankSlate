@@ -8,8 +8,8 @@ class Products extends React.Component {
 		return (
 			<div className="Products">
 
-			<div className="Nav">
-		      	<Link to="/App"><img className="Brain" src={brain} alt="" /></Link>
+			<div className="Nav3">
+		      	<Link to="/"><img className="Brain" src={brain} alt="" /></Link>
 
 
 					<ul className="Left">

@@ -8,9 +8,7 @@
 
 	position: relative;
 	height: 665px;
-	width: 570px;
-	
-	
+	width: 570px;	
 }
 
 .Nav2 {
@@ -40,7 +38,7 @@ ul.Left {
 
 
 li {
-	
+	color: white;
 }
 
 

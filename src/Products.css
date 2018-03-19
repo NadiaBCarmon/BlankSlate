@@ -1,5 +1,14 @@
 .Products {
 	background-color: #EBEBEB;
+	background-position: cover;
+
+}
+
+.StannDroid {
+	position: relative;
+	height: 665px;
+	width: 570px;
+
 }
 
 .Nav3 {
@@ -22,14 +31,17 @@ ul {
 ul.Right {
 	margin-left: 780px;
 	
+	
 }
 
 
 ul.Left {
+	
 }
 
 
 li {
+	background-color: #4A4A4A;
 	
 }
 
@@ -38,6 +50,7 @@ li {
 	display: inline-block;
 	font-size: 20px;
 	margin-right: 20px;
+	background-color: #4A4A4A;
 	
 }
 

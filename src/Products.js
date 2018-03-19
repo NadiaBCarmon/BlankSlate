@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 import {Link} from "react-router-dom";
 import brain from './brain.png';
+import StannDroid from './StannDroid.jpg';
 
 class Products extends React.Component {
 	render() {
 		return (
 			<div className="Products">
+
 
 			<div className="Nav3">
 		      	<Link to="/"><img className="Brain" src={brain} alt="" /></Link>
@@ -34,6 +36,7 @@ class Products extends React.Component {
 
 				</div>
 
+				<img className="StannDroid" src={StannDroid} alt="" />
 			</div>
 			)
 	}

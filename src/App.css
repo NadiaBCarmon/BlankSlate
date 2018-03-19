@@ -1,4 +1,4 @@
-.App {
+ .App {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -62,7 +62,7 @@ ul.Left {
 
 
 li {
-	
+	color: white;
 }
 
 

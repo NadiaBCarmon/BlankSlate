@@ -19,7 +19,7 @@ class OurStory extends React.Component {
 						</li>
 
 						<li className="Products">
-							<Link to="/Products">Products</Link>
+							Products
 						</li>
 					</ul>
 				
@@ -29,7 +29,7 @@ class OurStory extends React.Component {
 						</li>
 
 						<li className="SignUp">
-							<Link to="/SignUp">Sign Up</Link>
+							Sign Up
 						</li>
 					</ul>
 

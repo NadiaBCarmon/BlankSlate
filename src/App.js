@@ -7,15 +7,13 @@ import brain from './brain.png';
 import BackgroundVideo from './BackgroundVideo.js';
 import MainVid from './MainVid.mp4';
 
-
+//https://firebase.google.com/docs/reference/js/firebase.auth.FacebookAuthProvider//
 
 class App extends Component {
   render() {
     return (
 
     		<div className="App">
-
-
 
 
 		      	<div className="Nav">
@@ -28,7 +26,7 @@ class App extends Component {
 						</li>
 
 						<li className="Products">
-							<Link to="/Products">Products</Link>
+							Products
 						</li>
 					</ul>
 				
@@ -38,7 +36,7 @@ class App extends Component {
 						</li>
 
 						<li className="SignUp">
-							<Link to="/SignUp">Sign Up</Link>
+							Sign Up
 						</li>
 					</ul>
 
